@@ -19,7 +19,7 @@
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-audio-comments": "latest"
+    "react-audio-comments": "^1.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",
