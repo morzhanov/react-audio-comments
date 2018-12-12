@@ -3,7 +3,7 @@ import babel from 'rollup-plugin-babel'
 
 const config = {
   input: 'src/index.js',
-  external: ['react', 'react-modal'],
+  external: ['react'],
   output: {
     format: 'umd',
     name: 'react-media-editor',
