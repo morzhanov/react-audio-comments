@@ -62,8 +62,6 @@ render(
 
 <b>enableComments</b> - enable audio comments components; this components contains CommantsList and AddCommentPopup. Every comment bined to specific point on the audio graphic. By clicking on specific comment playback will jump to bined part of the song.
 
-</br>
-
 ### Comments usage
 
 To add comment use this steps:
@@ -73,6 +71,7 @@ To add comment use this steps:
 * Enter comment in popup and click `Add`
 * Comment will be added to comments list. If you click on specific comment playback will jump to bined part of the audio.
 
+</br>
 
 ## Main Technologies and libraries
 
