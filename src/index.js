@@ -63,7 +63,7 @@ class AudioEditor extends React.Component {
 
   successCommentCallback = text => {
     const id = this.state.comments.length
-      ? this.state.comments[this.state.comments.length - 1].id
+      ? this.state.comments[this.state.comments.length - 1].id + 1
       : 0
 
     const newComment = {
