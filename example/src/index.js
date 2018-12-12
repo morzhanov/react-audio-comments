@@ -1,8 +1,7 @@
 import './styles/main.css'
 import React from 'react'
-// import { AudioComments } from 'react-media-editor'
 import { render } from 'react-dom'
-import AudioComments from '../../dist/index.min'
+import AudioComments from 'react-media-editor'
 
 const rootNode = document.getElementById('app')
 
