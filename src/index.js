@@ -1,8 +1,8 @@
 import React from 'react'
-import AudioChart from './AudioChart'
-import Controls from '../controls/Controls'
-import CommentsList from './CommentsList'
-import AddCommentPopup from './AddCommentPopup'
+import AudioChart from './base/AudioChart'
+import Controls from './controls/Controls'
+import CommentsList from './base/CommentsList'
+import AddCommentPopup from './base/AddCommentPopup'
 
 class AudioEditor extends React.Component {
   state = {

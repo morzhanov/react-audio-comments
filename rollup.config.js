@@ -3,21 +3,19 @@ import babel from 'rollup-plugin-babel'
 
 const config = {
   input: 'src/index.js',
-  external: ['react', 'lodash', 'react-modal'],
+  external: ['react', 'react-modal'],
   output: {
     format: 'umd',
     name: 'react-media-editor',
     globals: {
-      react: 'React',
-      lodash: 'lodash',
-      'react-modal': 'react-modal'
+      react: 'React'
     }
   },
   plugins: [
     babel({
       exclude: 'node_modules/**'
-    })
-    // uglify()
+    }),
+    uglify()
   ]
 }
 export default config

@@ -6869,6 +6869,12 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-audio-comments@latest:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-audio-comments/-/react-audio-comments-1.0.0.tgz#73dd22d46b4f8835da8c075d3a0f8e821c4a5883"
+  dependencies:
+    react "^16.6.3"
+
 react-dev-utils@^5.0.1:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.3.tgz#92f97668f03deb09d7fa11ea288832a8c756e35e"
@@ -6919,13 +6925,6 @@ react-hot-loader@^4.3.3:
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
-
-react-media-editor@latest:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/react-media-editor/-/react-media-editor-1.9.2.tgz#3809541435a53e2bd58e18d0e1a50584281736c4"
-  dependencies:
-    lodash "^4.17.11"
-    react "^16.6.3"
 
 react-modal@^3.7.1:
   version "3.7.1"

@@ -1,7 +1,7 @@
 {
-  "name": "react-media-editor-example",
+  "name": "react-audio-comments-example",
   "version": "1.0.0",
-  "description": "React media editor example",
+  "description": "React audio comments example",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server  --config config/webpack.config.dev.js --mode development",
     "bld": "sh -ac '. ./.env.${REACT_APP_BUILD_MODE}; node ./config/scripts/build.js'",
@@ -11,14 +11,15 @@
     "media",
     "react",
     "example",
-    "editor"
+    "audio",
+    "comments"
   ],
   "author": "Vlad Morzhanov",
   "license": "MIT",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-media-editor": "latest"
+    "react-audio-comments": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",
