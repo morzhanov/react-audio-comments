@@ -82,6 +82,10 @@ To add comment use this steps:
 - <a href="https://github.com/prettier/prettier">Prettier</a>
 - <a href="https://babeljs.io/">Babel</a>
 
+## More
+
+If you would like to edit images or video files please take a look on <a href="https://github.com/morzhanov/react-media-editor">react-media-editor</a> library.
+
 ## Contributing
 
 1.  Fork it!
